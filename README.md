@@ -1,6 +1,8 @@
 # mxf-gui
 A GUI to inspect and extract data from [MXF](https://en.wikipedia.org/wiki/Material_Exchange_Format) files.
 
+![image](https://user-images.githubusercontent.com/38170229/144078414-6612b754-da76-4592-8a9f-acd4d6a4d315.png)
+
 The panel on the top-right shows the structural metadata. The tabs on the bottom show information about the file like the entire file's metadata, partitions, track layout, ancillary data (SMPTE 436m), parsed 708 captions, and DolbyE track ac3 metadata. The latter two require the corresponding option to be selected before opening the file.
 
 It uses a library called [mxf-reader](https://github.com/jforaci/mxf-reader). Note: playback isn't supported at this point.
