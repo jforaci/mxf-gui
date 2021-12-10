@@ -12,7 +12,8 @@ An example of browsing metadata:
 mxf-gui uses a library called [mxf-reader](https://github.com/jforaci/mxf-reader). Note: playback isn't supported at this point.
 
 ## Quick start
-To run MXF GUI:
+To start MXF GUI you should be able to launch the JAR like any executable.
+e.g. double-click it, or run:
 ```Bash
 java -jar mxf-gui-v1.0-snapshot.jar
 ```
